@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/puzzles-round-3/static/css/main.0eb9605e.chunk.css",
+    "main.js": "/puzzles-round-3/static/js/main.3e6a5654.chunk.js",
+    "main.js.map": "/puzzles-round-3/static/js/main.3e6a5654.chunk.js.map",
+    "runtime-main.js": "/puzzles-round-3/static/js/runtime-main.72d63708.js",
+    "runtime-main.js.map": "/puzzles-round-3/static/js/runtime-main.72d63708.js.map",
+    "static/js/2.500be918.chunk.js": "/puzzles-round-3/static/js/2.500be918.chunk.js",
+    "static/js/2.500be918.chunk.js.map": "/puzzles-round-3/static/js/2.500be918.chunk.js.map",
+    "index.html": "/puzzles-round-3/index.html",
+    "static/css/main.0eb9605e.chunk.css.map": "/puzzles-round-3/static/css/main.0eb9605e.chunk.css.map",
+    "static/js/2.500be918.chunk.js.LICENSE.txt": "/puzzles-round-3/static/js/2.500be918.chunk.js.LICENSE.txt",
+    "static/media/bus.7e72609f.png": "/puzzles-round-3/static/media/bus.7e72609f.png",
+    "static/media/car1.a490c4c0.png": "/puzzles-round-3/static/media/car1.a490c4c0.png",
+    "static/media/car2.05f3f172.png": "/puzzles-round-3/static/media/car2.05f3f172.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.72d63708.js",
+    "static/js/2.500be918.chunk.js",
+    "static/css/main.0eb9605e.chunk.css",
+    "static/js/main.3e6a5654.chunk.js"
+  ]
+}
