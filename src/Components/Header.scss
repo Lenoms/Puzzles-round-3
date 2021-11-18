@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Source+Code+Pro:wght@300&display=swap");
+
+.header {
+  width: 100vw;
+  height: 10%;
+  background-color: black;
+  border: 2px inset green;
+}
+
+.header-half {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  min-width: 300px;
+  align-items: center;
+}
+
+@mixin border-mixin {
+  border-radius: 10px;
+  border: none;
+}
+
+.input-bar {
+  @include border-mixin;
+  width: 50%;
+  height: 100%;
+  font-size: 2vh;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-family: "Source Code Pro", monospace;
+  color: black;
+  padding-left: 1vw;
+  background-color: #00ff77;
+  &::placeholder {
+    color: black;
+  }
+}
+
+.submit-button {
+  @include border-mixin;
+  width: 20%;
+  font-size: 2vh;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-family: "Source Code Pro", monospace;
+  font-weight: bold;
+  background-color: #007336;
+  cursor: pointer;
+  &:hover {
+    background-color: white;
+    box-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #00ff77,
+      0 0 82px #00ff77, 0 0 92px #00ff77, 0 0 102px #00ff77, 0 0 151px #00ff77;
+  }
+}
+
+.inventory-label {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-family: "Source Code Pro", monospace;
+  font-size: 5vh;
+  color: #fff;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #00ff77,
+    0 0 82px #00ff77, 0 0 92px #00ff77, 0 0 102px #00ff77, 0 0 151px #00ff77;
+}
+
+@media only screen and (max-width: 600px) {
+  .inventory-label {
+    font-size: 4vh;
+  }
+}
+
+.inventory-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  min-width: 100px;
+}
+
+.inventory-box {
+  height: 70%;
+  width: 15%;
+  margin: 2px;
+  border: 2px green outset;
+  background-color: #00ff77;
+}
+
+.arrows {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
