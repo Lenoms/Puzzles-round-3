@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/puzzles-round-3/static/css/main.0eb9605e.chunk.css",
-    "main.js": "/puzzles-round-3/static/js/main.3e6a5654.chunk.js",
-    "main.js.map": "/puzzles-round-3/static/js/main.3e6a5654.chunk.js.map",
+    "main.js": "/puzzles-round-3/static/js/main.519c7069.chunk.js",
+    "main.js.map": "/puzzles-round-3/static/js/main.519c7069.chunk.js.map",
     "runtime-main.js": "/puzzles-round-3/static/js/runtime-main.72d63708.js",
     "runtime-main.js.map": "/puzzles-round-3/static/js/runtime-main.72d63708.js.map",
     "static/js/2.500be918.chunk.js": "/puzzles-round-3/static/js/2.500be918.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.72d63708.js",
     "static/js/2.500be918.chunk.js",
     "static/css/main.0eb9605e.chunk.css",
-    "static/js/main.3e6a5654.chunk.js"
+    "static/js/main.519c7069.chunk.js"
   ]
 }
